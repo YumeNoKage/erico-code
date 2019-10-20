@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="D://PROJECT/HTML/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .bg-cover{
+            background: url(https://images.unsplash.com/photo-1543130732-4b8da601004b?ixlib=rb-1.2.1&auto=format&fit=max&w=500&q=60);
+            background-size: cover !important;
+            background-position: center !important;
+            height: 250px;
+        }
+        .nama{
+            font-size: 20px;
+            font-weight: bold;
+            color: darkslateblue;
+            text-align: center;
+        }
+        .author{
+            border-radius: 20px 20px 0px 0px;
+        }
+        .btn-subcribe{
+            border-radius: 50px;
+            border: none;
+            color: white;
+            background: darkslateblue;
+            padding: 7px 15px 7px 15px;
+            box-shadow: 0px 10px 15px -10px darkslateblue;
+        }
+        .detail{
+            background-color: white;
+            border-radius: 20px 20px 0px 0px;
+            margin-top: -20px;
+            padding: 25px 25px 25px 25px;
+        }
+        .subcribe{
+            position: relative;
+        }
+        .text-model{
+            font-size: small;
+            color: darkslateblue;
+        }
+        .count{
+            font-weight: bold;
+            color: darkslateblue;
+        }
+        .discribetion{
+            font-weight: 100;
+            color: darkslateblue;
+        }
+        strong{
+            color: darkslateblue;
+        }
+        .image{
+            height: 150px;
+            width: 90px; 
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-cover ">
+        <div class="nav-row d-flex">
+            <a href="index.html" class="col d-flex pt-4 justify-content-start">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="25" height="25"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M120.26563,10.25281c-1.78719,0.05375 -3.48031,0.80625 -4.73,2.08281l-68.8,68.8c-2.6875,2.6875 -2.6875,7.04125 0,9.72875l68.8,68.8c1.72,1.80062 4.28656,2.52625 6.70531,1.89469c2.40531,-0.63156 4.28656,-2.51281 4.91813,-4.91813c0.63156,-2.41875 -0.09406,-4.98531 -1.89469,-6.70531l-63.93563,-63.93563l63.93563,-63.93562c2.02906,-1.97531 2.64719,-4.99875 1.54531,-7.61906c-1.11531,-2.60688 -3.70875,-4.27313 -6.54406,-4.1925z"></path></g></g></svg>
+            </a>
+            <a href="#" class="col d-flex pt-4 justify-content-end">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="25" height="25"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M119.73372,16.43294l-10.13411,10.13411l16.43294,16.43294h-4.19922c-43.45442,0 -78.83333,35.37892 -78.83333,78.83333v7.16667h14.33333v-7.16667c0,-35.70858 28.79142,-64.5 64.5,-64.5h4.19922l-16.43294,16.43294l10.13411,10.13411l33.73372,-33.73372zM14.33333,57.33333v7.16667v71.66667c0,11.78895 9.71105,21.5 21.5,21.5h100.33333c11.78895,0 21.5,-9.71105 21.5,-21.5v-7.16667v-7.16667h-14.33333v7.16667v7.16667c0,4.04938 -3.11729,7.16667 -7.16667,7.16667h-100.33333c-4.04938,0 -7.16667,-3.11729 -7.16667,-7.16667v-71.66667v-7.16667z"></path></g></g></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="detail">
+        <div class="row author">
+            <div class="col d-flex justify-content-start">
+                <div class="nama">Void Item</div>
+            </div>
+            <div class="col p-0 pr-3 d-flex justify-content-end subcribe">
+                <button class="btn-subcribe">Subcribe</button>
+            </div>
+        </div>
+        <div class="row mr-0 mb-0 ml-0 mt-4 text-center">
+            <div class="col">
+                <p class="text-model pb-0 mb-0">LIKES</p>
+                <p class="count">714</p>
+            </div>
+            <div class="col">
+                <p class="text-model pb-0 mb-0">FOLLOWERS</p>
+                <p class="count">2030</p>
+            </div>
+            <div class="col">
+                <p class="text-model pb-0 mb-0">SHOTS</p>
+                <p class="count">602</p>
+            </div>
+        </div>
+        <div class="row mt-0">
+            <div class="col">
+                <p class="discribetion">Drawing makes me happy and makes me happy. I love making pictures. I love making pictures. I love making pictures! Drawing pictures is all my pleasure.</p>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <strong>All Shots</strong>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1570937937487-125575170d69?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=60);">
+                    </a>
+                </div>
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1543130732-4b8da601004b?ixlib=rb-1.2.1&amp;auto=format&amp;fit=max&amp;w=500&amp;q=60);">
+                    </a>
+                </div>
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1431512284068-4c4002298068?ixlib=rb-1.2.1&amp;auto=format&amp;fit=max&amp;w=500&amp;q=60);">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1546372934-52ab68952775?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=60);">    
+                    </a>
+                </div>
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);">
+                    </a>
+                </div>
+                <div class="col p-0">
+                    <a href="detail.html">
+                        <img class="m-2 image" style="background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
